@@ -1,0 +1,18 @@
+<h1>Edit User Form</h1>
+<form action="/users/{{user.id}}" method="POST">
+    <input type="hidden" name="_method" value="POST">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{user.name}}" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="{{user.email}}" required>
+    </div>
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" value="{{user.age}}">
+    </div>
+    <button type="submit" class="save-btn">Save</button>
+    <a href="/users/{{user.id}}" class="cancel-btn">Cancel</a>
+</form>
