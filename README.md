@@ -50,6 +50,7 @@ This project is a simple Users CRUD (Create, Read, Update, Delete) application b
 
 ## Project Structure
 
+```
 users-crud-app/
 ├── users.json            # Database (JSON file)
 ├── src/
@@ -83,7 +84,7 @@ users-crud-app/
 ├── package.json          # Project metadata and dependencies
 ├── package-lock.json     # Specific versions of dependencies
 └── README.md             # Project information (this file)
-
+```
 
 
 ## Usage
