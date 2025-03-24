@@ -104,4 +104,4 @@ Open your browser and navigate to `http://localhost:3000/users`. You will see a 
 * The `public` directory contains static files (CSS, JavaScript).
 
 ## Author
-\[Tillayev Xusniddin]
+  tillayevx1@gmail.com
