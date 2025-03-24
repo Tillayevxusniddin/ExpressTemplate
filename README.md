@@ -1,6 +1,6 @@
 # Users CRUD App (Express.js, Handlebars, UUID)
 
-This project is a simple Users CRUD (Create, Read, Update, Delete) application built using the Express.js framework, the Handlebars templating engine, and the UUID (Universally Unique Identifier) library. The data is stored in a `users.json` file.
+This project is a simple Users CRUD (Create, Read, Update, Delete) application built using the Express.js framework, the Handlebars templating engine, and the UUID (Universally Unique Identifier) library. The data is stored in a users.json file. (For Template)
 
 ## Technologies
 
