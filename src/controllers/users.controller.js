@@ -1,9 +1,12 @@
 const UserModel = require('../models/user.model');
+const pool = require('../config/db');
+
 
 class UserController {
     static async index(req, res){
         try {
-            const users = await UserModel.getAll();
+            const result = await pool.query('SELECT * FROM user_info');
+            const users = result.rows;
             res.render('users/index', { users });
         } catch (error) {
             res.status(500).send('Internal server error');
