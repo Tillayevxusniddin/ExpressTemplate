@@ -28,7 +28,7 @@ router.post('/:id', express.urlencoded({ extended: false }), UserController.upda
 
 // [DELETE] /users/:id
 
-router.post('/:id/delete', UserController.delete);
+router.delete('/:id', UserController.delete);
 
 module.exports = router;
 

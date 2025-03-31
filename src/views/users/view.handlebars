@@ -1,14 +1,17 @@
+<div class="form-container">
 <h1>User</h1>
 <div class="user-details">
-    <h3>{{user.name}}</h3>
-    <p>Email: {{user.email}}</p>
-    <p>Age: {{user.age}}</p>
+    <h3>{{username}}</h3>
+    <p>Email: {{email}}</p>
+    <p>Age: {{age}}</p>
     <div class="actions">
-        <a href="/users/{{user.id}}/edit" class="edit-btn">Edit</a>
-        <form action="/users/{{user.id}}/delete" method="POST" style="display:inline;">
-            <input type="hidden" name="_method" value="POST">
+        <a href="/users/{{id}}/edit" class="edit-btn">Edit</a>
+        <form action="/users/{{id}}?_method=DELETE"  method="POST" style="display:inline;">
             <button type="submit" class="delete-btn">Delete</button>
         </form>
         <a href="/users" class="back-btn">Back</a>
     </div>
 </div>
+</div>
+
+
